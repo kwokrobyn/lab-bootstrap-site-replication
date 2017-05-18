@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  min-width: 95%;
+}
+
+.img-1  {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/Amazon-Alexa-540x270.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-2  {
+  background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2011/03/biz-stone.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-3  {
+  background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/3D-Print-Mouse-Babies-540x270.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-4  {
+  background-image: url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2016/08/Gear-VR-405x270.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-5  {
+  background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/10/shutterstock_159902675.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-6  {
+  background-image: url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/GhtQuzk-540x270.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-7  {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/WannaCryFeat-458x270.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.img-8  {
+  background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/04/zuckerberg-f8-2017-540x270.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.nitem {
+  padding: 10px;
+}
+
+.s1-img1 {
+  background-image: url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2016/10/MacBook-Pro-796x398.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.s1-img2 {
+  background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2015/08/influencer-1200x617.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.s1-img3 {
+  background-image: url("https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/prey4-796x448.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.s1 {
+  margin: 0 auto;
+  padding: 4px;
+
+}
+
+.s1-img {
+  border: 3px solid white;
+  position: relative;
+}
+
+.title {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+header {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .news-img{
+    width: 72px;
+    height: 72px;
+  }
+
+  .s1-img1 {
+    height: 33.3333%;
+  }
+
+  .right, .row.inner {
+    height: 66.66666%;
+  }
+
+  .s1-img {
+    min-height: 30vh;
+  }
+  .s1-img2 {
+    height: 50%;
+  }
+
+  .s1-img3 {
+    height: 50%;
+  }
+
+}
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  .news-img{
+    width: 290px;
+    height: 150px;
+  }
+
+  .nitem {
+    height: 280px;
+  }
+
+  .s1 {
+    height: 60vh;
+    width: 100%;
+  }
+
+  .s1-img1 {
+    height: 100%;
+  }
+
+  .right, .row.inner {
+    height: 100%;
+  }
+
+  .s1-img2 {
+    height: 50%;
+  }
+
+  .s1-img3 {
+    height: 50%;
+  }
+
+
+}
+@media screen and (min-width: 1200px) {
+  .news-img{
+    width: 290px;
+    height: 150px;
+  }
+
+  .nitem {
+    height: 280px;
+  }
+
+  .s1 {
+    height: 75vh;
+  }
+
+  .s1-img1 {
+    height: 100%;
+  }
+
+  .s1-img2 {
+    height: 50%;
+  }
+
+  .s1-img3 {
+    height: 50%;
+  }
+
+  .right, .row.inner {
+    height: 100%;
+  }
+
+}
